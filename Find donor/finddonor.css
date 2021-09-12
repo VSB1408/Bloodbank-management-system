@@ -1,0 +1,115 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+  background: url('../img/bg-find-donor.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  /* background-size: 60%; */
+  /* background-color: #e96e6e; */
+}
+/* .header {
+  padding: 8px;
+  width: 100%;
+  color: #ddf35f;
+  z-index: 2;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(60px);
+} */
+.header p {
+  text-align: center;
+  text-shadow: 0px 4px 4px black;
+  font-size: 50px;
+  font-family: Cambria;
+  z-index: 3;
+}
+.login {
+  overflow: hidden;
+  background-color: antiquewhite;
+  padding: 40px 30px 30px 30px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  transform: translate(-50%, -50%);
+}
+
+.login > input {
+  font-family: 'Asap', sans-serif;
+  display: block;
+  border-radius: 5px;
+  font-size: 16px;
+  background: white;
+  width: 100%;
+  border: 0;
+  padding: 10px 10px;
+  margin: 15px -10px;
+}
+.login > select {
+  font-family: 'Asap', sans-serif;
+  display: block;
+  border-radius: 5px;
+  font-size: 16px;
+  background: white;
+  width: 100%;
+  border: 0;
+  padding: 10px 10px;
+  margin: 15px -10px;
+}
+.login > button {
+  font-family: 'Cambria', sans-serif;
+  cursor: pointer;
+  color: rgb(236, 233, 233);
+  font-size: 16px;
+  text-transform: uppercase;
+  width: 80px;
+  border: 0;
+  padding: 10px 0;
+  margin-top: 10px;
+  margin-left: -5px;
+  border-radius: 5px;
+  background-color: #e44848;
+  transition: background-color 300ms;
+  display: block;
+  border-radius: 5x;
+}
+.login > button:hover {
+  background-color: #3589f0;
+}
+.login::before,
+.login::after {
+  content: '';
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  border-top-left-radius: 40%;
+  border-top-right-radius: 45%;
+  border-bottom-left-radius: 35%;
+  border-bottom-right-radius: 40%;
+  z-index: -1;
+}
+.login::before {
+  left: 0%;
+  bottom: -300;
+  background-color: rgba(56, 207, 157, 0.452);
+  animation: wawes 6s infinite linear;
+}
+.login::after {
+  left: 10%;
+  bottom: -125;
+  background-color: rgba(90, 86, 158, 0.493);
+  animation: wawes 7s infinite;
+}
+@keyframes wawes {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

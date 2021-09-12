@@ -1,0 +1,72 @@
+:: Table Structure ::
+=======================
+
+user:	9
+=======================
+
+usid name age gender bt contact email password nextdate
+____________________________________________________________
+
+donor:	4
+=======================
+
+usid name donateid locid
+____________________________________________________________
+
+acceptor:	4
+=======================
+
+usid name reqid locid
+____________________________________________________________
+
+wlist
+=======================
+
+reqid qty breqid dline
+____________________________________________________________
+
+dlist
+=======================
+
+donateid qty locid bdoanteid
+____________________________________________________________
+
+dontransit
+=======================
+
+tid bdonateid dltime status
+____________________________________________________________
+
+acctransit
+=======================
+
+tid breqid dltime status
+____________________________________________________________
+
+storage
+=======================
+
+stid donateid slocid
+
+===========================================================================
+
+AIzaSyCHzf6H6fFfzesKzj7zXk9AXUgGauMaUig:			Mine
+
+
+AIzaSyD7CQl6fRhagGok6CzFGOOPne2X1u1spoA:			Public
+
+===========================================================================
+
+ADMIN
+
+VIEW ALL RECORDS
+
+VIEW TRANSIT
+
+VIEW USERS
+
+DELETE USER
+
+ADD BLOOD to STORAGE
+
+
